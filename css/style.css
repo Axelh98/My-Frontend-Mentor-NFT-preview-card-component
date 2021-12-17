@@ -1,0 +1,115 @@
+:root {
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --mainDarkBlue: hsl(217, 54%, 11%);
+    --cardDarkBlue: hsl(216, 50%, 16%);
+    --lineDarBlue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.contenedor {
+    width: 30rem;
+    margin: auto auto;
+    border-radius: 1rem;
+}
+
+.contenedor_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+.contenedor_imagen {
+    width: 25rem;
+}
+
+p {
+    font-size: 1.8rem;
+    color: var(--softBlue);
+    
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 900;
+}
+main {
+    background-color: var(--cardDarkBlue);
+    
+}
+
+.contenedor_icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: .01rem solid var(--lineDarBlue) ;
+}
+
+.contenedor_etherium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etherium_text {
+    color: var(--cyan);
+}
+
+.contenedor_clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor_icons img {
+    height: 1.8rem;
+    margin: .6rem;
+}
+
+.icons_text p{
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.contenedor_creation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.creation_icon {
+    height: 3.2rem;
+    margin: 1rem;
+}
+
+.creation_paragraph {
+    font-size: 1.2rem;
+}
+
